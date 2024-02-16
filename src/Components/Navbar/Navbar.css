@@ -1,0 +1,53 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+  }
+  
+  .logo{
+    color: white;
+    margin-left: 5%;
+    height: 50px;
+  }
+  
+  .logo p{
+    letter-spacing: 8px;
+  }
+  
+  .icons{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    color: white;
+    margin-right: 3%;
+  }
+  
+  .icon{
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .menu div{
+    padding: 0px 30px 0px 30px;
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
+  
+  .menu div:hover{
+    font-weight: bold;
+  }
